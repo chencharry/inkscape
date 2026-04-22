@@ -1221,6 +1221,15 @@
         </item>
       </section>
     </submenu>
+    <submenu id="laser-menu">
+      <attribute name="label" translatable="yes">激光雕刻(_L)</attribute>
+      <section>
+        <item>
+          <attribute name="label" translatable="yes">打开激光软件</attribute>
+          <attribute name="action">app.launch-laser</attribute>
+        </item>
+      </section>
+    </submenu>
     <submenu id="help-menu">
       <attribute name="label" translatable="yes">_Help</attribute>
       <section>

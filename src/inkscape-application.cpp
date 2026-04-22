@@ -82,6 +82,7 @@
 #include "actions/actions-text.h"
 #include "actions/actions-transform.h"
 #include "actions/actions-tutorial.h"
+#include "actions/actions-laser.h"
 #include "actions/actions-window.h"
 #include "debug/logger.h"           // INKSCAPE_DEBUG_LOG support
 #include "extension/db.h"
@@ -612,6 +613,7 @@ InkscapeApplication::InkscapeApplication()
     add_actions_selection_object(this);     // actions for selected objects
     add_actions_text(this);                 // actions for Text
     add_actions_tutorial(this);             // actions for opening tutorials (with GUI only)
+    add_actions_laser(this);                // actions for laser engraving
     add_actions_transform(this);            // actions for transforming selected objects
     add_actions_window(this);               // actions for windows
 

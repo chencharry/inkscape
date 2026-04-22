@@ -44,6 +44,8 @@ target_sources(inkscape_base PRIVATE
   actions-hide-lock.cpp
   actions-layer.h
   actions-layer.cpp
+  actions-laser.h
+  actions-laser.cpp
   actions-node-align.h
   actions-node-align.cpp
   actions-object.h
